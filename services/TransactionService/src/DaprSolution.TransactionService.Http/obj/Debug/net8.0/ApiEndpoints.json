@@ -1,0 +1,30 @@
+[
+  {
+    "ContainingType": "DaprSolution.TransactionService.Http.Controllers.TransactionController",
+    "Method": "Get",
+    "RelativePath": "transaction",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetWeatherForecast"
+  },
+  {
+    "ContainingType": "DaprSolution.TransactionService.Http.Controllers.TransactionController",
+    "Method": "Post",
+    "RelativePath": "transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

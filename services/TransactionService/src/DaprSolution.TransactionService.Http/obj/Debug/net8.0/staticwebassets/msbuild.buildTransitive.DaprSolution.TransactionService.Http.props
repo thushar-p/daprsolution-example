@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DaprSolution.TransactionService.Http.props" />
+</Project>

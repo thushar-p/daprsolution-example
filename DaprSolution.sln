@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{982549D8-9D36-4261-A627-6022FD958D5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionService", "TransactionService", "{8492CDF1-EF01-4759-A87A-A3A3D8C6A1BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6ED29FC-90D1-4441-B96C-7AB0ED08269D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DECE9D25-79B8-4727-A782-E833691D2A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprSolution.OrderService.Http", "services\OrderService\src\DaprSolution.OrderService.Http\DaprSolution.OrderService.Http.csproj", "{ACFAAF8F-D72E-8841-8565-2716BA34C486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprSolution.TransactionService.Http", "services\TransactionService\src\DaprSolution.TransactionService.Http\DaprSolution.TransactionService.Http.csproj", "{494B8660-C929-775E-B832-FD5C1571571C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACFAAF8F-D72E-8841-8565-2716BA34C486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFAAF8F-D72E-8841-8565-2716BA34C486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFAAF8F-D72E-8841-8565-2716BA34C486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFAAF8F-D72E-8841-8565-2716BA34C486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494B8660-C929-775E-B832-FD5C1571571C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494B8660-C929-775E-B832-FD5C1571571C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494B8660-C929-775E-B832-FD5C1571571C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494B8660-C929-775E-B832-FD5C1571571C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{982549D8-9D36-4261-A627-6022FD958D5A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8492CDF1-EF01-4759-A87A-A3A3D8C6A1BF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F6ED29FC-90D1-4441-B96C-7AB0ED08269D} = {982549D8-9D36-4261-A627-6022FD958D5A}
+		{DECE9D25-79B8-4727-A782-E833691D2A8B} = {8492CDF1-EF01-4759-A87A-A3A3D8C6A1BF}
+		{ACFAAF8F-D72E-8841-8565-2716BA34C486} = {F6ED29FC-90D1-4441-B96C-7AB0ED08269D}
+		{494B8660-C929-775E-B832-FD5C1571571C} = {DECE9D25-79B8-4727-A782-E833691D2A8B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA36AF0C-3C64-49AC-ADE9-6224904D4355}
+	EndGlobalSection
+EndGlobal

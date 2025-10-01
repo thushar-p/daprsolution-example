@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "DaprSolution.OrderService.Http.Controllers.OrderController",
+    "Method": "GetTransactionList",
+    "RelativePath": "order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DaprSolution.OrderService.Http.Controllers.OrderController",
+    "Method": "PostTransaction",
+    "RelativePath": "order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

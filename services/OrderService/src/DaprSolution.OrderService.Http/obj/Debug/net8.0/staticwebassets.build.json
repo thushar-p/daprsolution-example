@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ZA6fhy5VcCaEB/aUhQbRQCmded1TaIRuojfL0oWwjRo=",
+  "Source": "DaprSolution.OrderService.Http",
+  "BasePath": "_content/DaprSolution.OrderService.Http",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

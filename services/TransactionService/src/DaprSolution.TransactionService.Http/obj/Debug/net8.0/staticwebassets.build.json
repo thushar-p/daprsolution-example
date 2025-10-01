@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ITEJ5eeV/cUP5QPRPltBhwvz4BLNgJZXtlo0WXsEg4k=",
+  "Source": "DaprSolution.TransactionService.Http",
+  "BasePath": "_content/DaprSolution.TransactionService.Http",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

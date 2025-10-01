@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DaprSolution.OrderService.Http.props" />
+</Project>

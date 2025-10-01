@@ -1,0 +1,43 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "DaprSolution.TransactionService.Http",
+    "version": "1.0"
+  },
+  "paths": {
+    "/transaction": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Transaction"
+        ],
+        "operationId": "GetWeatherForecast",
+        "parameters": [
+          {
+            "name": "transactionCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
