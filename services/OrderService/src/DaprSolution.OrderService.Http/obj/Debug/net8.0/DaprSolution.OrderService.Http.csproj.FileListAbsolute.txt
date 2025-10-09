@@ -55,3 +55,5 @@ D:\Thushar\code\Dotnet\DaprSolution\services\OrderService\src\DaprSolution.Order
 D:\Thushar\code\Dotnet\DaprSolution\services\OrderService\src\DaprSolution.OrderService.Http\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\Thushar\code\Dotnet\DaprSolution\services\OrderService\src\DaprSolution.OrderService.Http\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 D:\Thushar\code\Dotnet\DaprSolution\services\OrderService\src\DaprSolution.OrderService.Http\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Thushar\code\Dotnet\DaprSolution\services\OrderService\src\DaprSolution.OrderService.Http\obj\Debug\net8.0\DaprSolution.OrderService.Http.sourcelink.json
+D:\Thushar\code\Dotnet\DaprSolution\services\OrderService\src\DaprSolution.OrderService.Http\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

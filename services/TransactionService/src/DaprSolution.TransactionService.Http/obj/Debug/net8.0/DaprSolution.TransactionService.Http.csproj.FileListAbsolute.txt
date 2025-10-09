@@ -33,3 +33,4 @@ D:\Thushar\code\Dotnet\DaprSolution\services\TransactionService\src\DaprSolution
 D:\Thushar\code\Dotnet\DaprSolution\services\TransactionService\src\DaprSolution.TransactionService.Http\obj\Debug\net8.0\DaprSolution.TransactionService.Http.pdb
 D:\Thushar\code\Dotnet\DaprSolution\services\TransactionService\src\DaprSolution.TransactionService.Http\obj\Debug\net8.0\DaprSolution.TransactionService.Http.genruntimeconfig.cache
 D:\Thushar\code\Dotnet\DaprSolution\services\TransactionService\src\DaprSolution.TransactionService.Http\obj\Debug\net8.0\ref\DaprSolution.TransactionService.Http.dll
+D:\Thushar\code\Dotnet\DaprSolution\services\TransactionService\src\DaprSolution.TransactionService.Http\obj\Debug\net8.0\DaprSolution.TransactionService.Http.sourcelink.json

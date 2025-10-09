@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("fb6c35a1-6a92-4c9b-88b6-27ab9313425e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DaprSolution.OrderService.Http")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+005dbb277cae85394b4d4fb6883dbc66dcf1cc1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c11c729ad1fc3943fa2893d177cef98e5d30c08d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DaprSolution.OrderService.Http")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DaprSolution.OrderService.Http")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("a46f49fb-352e-486a-9107-a3aa352a69a1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DaprSolution.TransactionService.Http")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+005dbb277cae85394b4d4fb6883dbc66dcf1cc1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c11c729ad1fc3943fa2893d177cef98e5d30c08d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DaprSolution.TransactionService.Http")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DaprSolution.TransactionService.Http")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
