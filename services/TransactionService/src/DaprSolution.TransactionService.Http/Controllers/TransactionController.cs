@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DaprSolution.TransactionService.Http.Controllers
@@ -30,6 +29,15 @@ namespace DaprSolution.TransactionService.Http.Controllers
         public IActionResult Post([FromBody] TransactionCode transactionCode)
         {
             Console.WriteLine("Post Transaction");
+            TransactionCode.Add(transactionCode.Code);
+            return Ok(transactionCode);
+        }
+
+        [Dapr.Topic("orderpub", "orderTopic")]
+        [HttpPost("subscribe-one")]
+        public IActionResult SubscribeOne([FromBody] TransactionCode transactionCode)
+        {
+            Console.WriteLine($"SubscribeOne : {transactionCode.Code}");
             TransactionCode.Add(transactionCode.Code);
             return Ok(transactionCode);
         }

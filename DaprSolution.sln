@@ -17,6 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprSolution.OrderService.H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprSolution.TransactionService.Http", "services\TransactionService\src\DaprSolution.TransactionService.Http\DaprSolution.TransactionService.Http.csproj", "{494B8660-C929-775E-B832-FD5C1571571C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{53052BA1-0731-4A3F-A946-BCECF1BD6C70}"
+	ProjectSection(SolutionItems) = preProject
+		orderpub.yaml = orderpub.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +47,7 @@ Global
 		{DECE9D25-79B8-4727-A782-E833691D2A8B} = {8492CDF1-EF01-4759-A87A-A3A3D8C6A1BF}
 		{ACFAAF8F-D72E-8841-8565-2716BA34C486} = {F6ED29FC-90D1-4441-B96C-7AB0ED08269D}
 		{494B8660-C929-775E-B832-FD5C1571571C} = {DECE9D25-79B8-4727-A782-E833691D2A8B}
+		{53052BA1-0731-4A3F-A946-BCECF1BD6C70} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA36AF0C-3C64-49AC-ADE9-6224904D4355}

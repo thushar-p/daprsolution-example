@@ -50,7 +50,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Dapr.Client": {
+            "Dapr.AspNetCore": {
               "target": "Package",
               "version": "[1.16.0, )"
             },

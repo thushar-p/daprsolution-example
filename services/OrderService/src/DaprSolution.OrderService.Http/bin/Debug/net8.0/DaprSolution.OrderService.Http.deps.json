@@ -8,12 +8,35 @@
     ".NETCoreApp,Version=v8.0": {
       "DaprSolution.OrderService.Http/1.0.0": {
         "dependencies": {
-          "Dapr.Client": "1.16.0",
+          "Dapr.AspNetCore": "1.16.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
           "DaprSolution.OrderService.Http.dll": {}
+        }
+      },
+      "Dapr.AspNetCore/1.16.0": {
+        "dependencies": {
+          "Dapr.Client": "1.16.0",
+          "Dapr.Common": "1.16.0",
+          "Google.Api.CommonProtos": "2.17.0",
+          "Google.Protobuf": "3.32.0",
+          "Grpc.Net.Client": "2.71.0",
+          "Microsoft.Extensions.Configuration": "9.0.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Http": "9.0.8",
+          "Microsoft.Extensions.Logging": "9.0.8",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Options": "9.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/Dapr.AspNetCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.16.0.0"
+          }
         }
       },
       "Dapr.Client/1.16.0": {
@@ -344,6 +367,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapr.AspNetCore/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-biRnQS15YZtx8zejhfpVOOl20md6mqJE8whY2DJdorLHcuWBxnFHJDv/2N7/f+7oBb9R5YWOa0qkHMGPKziCIg==",
+      "path": "dapr.aspnetcore/1.16.0",
+      "hashPath": "dapr.aspnetcore.1.16.0.nupkg.sha512"
     },
     "Dapr.Client/1.16.0": {
       "type": "package",

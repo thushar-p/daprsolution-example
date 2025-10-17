@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DaprSolution.OrderService.Http")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c11c729ad1fc3943fa2893d177cef98e5d30c08d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d75d48aa119f836525492401ff0803e6e031d01b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DaprSolution.OrderService.Http")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DaprSolution.OrderService.Http")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
