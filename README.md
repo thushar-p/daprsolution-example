@@ -19,6 +19,40 @@ This setup uses **Dapr sidecars** to handle service to service invocation withou
 
 ---
 
+## Download Dapr CLI
+
+1. Open powershell
+
+``` shell
+powershell -Command "iwr -useb https://raw.githubusercontent.com/dapr/cli/master/install/install.ps1 | iex"
+```
+
+1. If installation fails try executing below command and install dapr cli again (skip if download is successful)
+
+```shell
+Powershell permission : Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+## Verify Dapr cli installation
+
+```shell
+dapr -h
+```
+
+## Initialize the dapr cli
+
+1. Open command prompt as admin
+
+```shell
+dapr init
+```
+
+## Verify dapr initialization is successful
+
+``` shell
+dapr --version
+```
+
+
 ## Repository Setup
 
 1. Clone the repository:
@@ -31,7 +65,7 @@ git clone https://github.com/thushar-p/daprsolution-example.git
 
 ## Run transaction service 
 
-1. Open terminal in that folder
+1. Open terminal in project folder
 2. Run this cmd
 ```shell
 dapr run --app-port 8080 --app-id transaction --app-protocol http --dapr-http-port 8081 -- dotnet run
@@ -42,7 +76,7 @@ dapr run --app-port 8080 --app-id transaction --app-protocol http --dapr-http-po
 
 ## Run order service
 
-1. Open terminal in that folder
+1. Open terminal in project folder
 2. Run this cmd
 ```shell
 dapr run --app-port 7000 --app-id order --app-protocol http --dapr-http-port 7001 -- dotnet run
