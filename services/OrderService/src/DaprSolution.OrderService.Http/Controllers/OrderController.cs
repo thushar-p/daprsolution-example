@@ -16,10 +16,12 @@ namespace DaprSolution.OrderService.Http.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetTransactionList()
+        public async Task<IActionResult> GetTransactionList(DaprClient client)
         {
             Console.WriteLine("Get Transaction List from Transaction Service");
-            var response = await client.CreateInvokableHttpClient(appId: "transaction").GetFromJsonAsync<List<string>>("transaction");
+            var httpClient = client.CreateInvokableHttpClient(appId: "transaction");
+            //httpClient.DefaultRequestHeaders.Add("dapr-api-token", "123457");
+            var response = await httpClient.GetFromJsonAsync<List<string>>("transaction");
             Console.WriteLine(response);
             return Ok(response);
         }
@@ -38,6 +40,16 @@ namespace DaprSolution.OrderService.Http.Controllers
         {
             Console.WriteLine(transactionCode.Code);
             await client.PublishEventAsync("orderpub", "orderTopic", transactionCode);
+            return Ok();
+        }
+
+
+        [HttpPost]
+        [Route("publish-bill-break")]
+        public async Task<IActionResult> billBreakPub([FromBody] TransactionCode transactionCode)
+        {
+            Console.WriteLine(transactionCode.Code);
+            await client.PublishEventAsync("billBreakPub", "billBreakTopic", transactionCode);
             return Ok();
         }
     }

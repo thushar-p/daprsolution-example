@@ -34,10 +34,11 @@ namespace DaprSolution.TransactionService.Http.Controllers
         }
 
         [Dapr.Topic("orderpub", "orderTopic")]
-        [HttpPost("subscribe-one")]
-        public IActionResult SubscribeOne([FromBody] TransactionCode transactionCode)
+        [Dapr.Topic("billBreakPub", "billBreakTopic")]
+        [HttpPost("subscribe")]
+        public IActionResult Subscribe([FromBody] TransactionCode transactionCode)
         {
-            Console.WriteLine($"SubscribeOne : {transactionCode.Code}");
+            Console.WriteLine($"Subscriber: {transactionCode.Code}");
             TransactionCode.Add(transactionCode.Code);
             return Ok(transactionCode);
         }
