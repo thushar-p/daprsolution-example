@@ -1,6 +1,5 @@
 ﻿using Dapr.Client;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 
 namespace DaprSolution.OrderService.Http.Controllers
 {
@@ -12,16 +11,13 @@ namespace DaprSolution.OrderService.Http.Controllers
         public OrderController(DaprClient daprClient) 
         {
             client = daprClient;
-                //DaprClient.CreateInvokeHttpClient(appId: "transaction");
         }
 
         [HttpGet]
         public async Task<IActionResult> GetTransactionList(DaprClient client)
         {
             Console.WriteLine("Get Transaction List from Transaction Service");
-            var httpClient = client.CreateInvokableHttpClient(appId: "transaction");
-            //httpClient.DefaultRequestHeaders.Add("dapr-api-token", "123457");
-            var response = await httpClient.GetFromJsonAsync<List<string>>("transaction");
+            var response = await client.CreateInvokableHttpClient(appId: "transaction-service").GetFromJsonAsync<List<string>>("transaction");
             Console.WriteLine(response);
             return Ok(response);
         }
@@ -30,7 +26,7 @@ namespace DaprSolution.OrderService.Http.Controllers
         public async Task<IActionResult> PostTransaction([FromBody] TransactionCode transactionCode)
         {
             Console.WriteLine(transactionCode.Code);
-            var response = await client.CreateInvokableHttpClient(appId: "transaction").PostAsJsonAsync("transaction", transactionCode);
+            var response = await client.CreateInvokableHttpClient(appId: "transaction-service").PostAsJsonAsync("transaction", transactionCode);
             return Ok(response);
         }
 

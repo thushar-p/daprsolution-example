@@ -7,21 +7,6 @@ spec:
   version: v1
   metadata:
   - name: redisHost
-    value: "localhost:6379"
+    value: $PUBSUB_REDIS_HOST
   - name: redisPassword
-    value: ""
-
----
-
-apiVersion: dapr.io/v1alpha1
-kind: Component
-metadata:
-  name: billBreakPub
-spec:
-  type: pubsub.redis
-  version: v1
-  metadata:
-  - name: redisHost
-    value: "localhost:6379"
-  - name: redisPassword
-    value: ""
+    value: $PUBSUB_REDIS_PASSWORD

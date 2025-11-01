@@ -33,15 +33,15 @@ namespace DaprSolution.TransactionService.Http.Controllers
             return Ok(transactionCode);
         }
 
-        [Dapr.Topic("orderpub", "orderTopic")]
-        [Dapr.Topic("billBreakPub", "billBreakTopic")]
-        [HttpPost("subscribe")]
-        public IActionResult Subscribe([FromBody] TransactionCode transactionCode)
-        {
-            Console.WriteLine($"Subscriber: {transactionCode.Code}");
-            TransactionCode.Add(transactionCode.Code);
-            return Ok(transactionCode);
-        }
+        //[Dapr.Topic("orderpub", "orderTopic")]
+        //[Dapr.Topic("billBreakPub", "billBreakTopic")]
+        //[HttpPost("subscribe")]
+        //public IActionResult Subscribe([FromBody] TransactionCode transactionCode)
+        //{
+        //    Console.WriteLine($"Subscriber: {transactionCode.Code}");
+        //    TransactionCode.Add(transactionCode.Code);
+        //    return Ok(transactionCode);
+        //}
     }
 
     public class TransactionCode
