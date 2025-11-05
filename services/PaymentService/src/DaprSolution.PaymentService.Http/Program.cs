@@ -1,5 +1,5 @@
 
-namespace DaprSolution.TransactionService.Http
+namespace DaprSolution.PaymentService.Http
 {
     public class Program
     {
@@ -19,8 +19,9 @@ namespace DaprSolution.TransactionService.Http
                 app.UseSwaggerUI();
             }
 
-            app.UseAuthorization();
+            app.UseHttpsRedirection();
             app.UseCloudEvents();
+            app.UseAuthorization();
             app.MapControllers();
             app.MapSubscribeHandler();
             app.Run();

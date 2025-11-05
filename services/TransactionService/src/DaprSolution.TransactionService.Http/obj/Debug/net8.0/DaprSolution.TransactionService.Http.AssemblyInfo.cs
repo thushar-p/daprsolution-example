@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DaprSolution.TransactionService.Http")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ca30666b74c233c66e270d499f1ddb424f096a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cc9499c0e86a65455f4c706563d896d08431f22")]
 [assembly: System.Reflection.AssemblyProductAttribute("DaprSolution.TransactionService.Http")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DaprSolution.TransactionService.Http")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

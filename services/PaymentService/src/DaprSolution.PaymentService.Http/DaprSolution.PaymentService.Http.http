@@ -1,0 +1,6 @@
+@DaprSolution.PaymentService.Http_HostAddress = http://localhost:5183
+
+GET {{DaprSolution.PaymentService.Http_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

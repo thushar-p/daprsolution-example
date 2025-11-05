@@ -22,6 +22,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", 
 		orderpub.yaml = orderpub.yaml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentService", "{8D50F29E-76A9-46F0-AD4C-A428CCBCB173}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{635C20A9-2D1F-41AC-9D57-958C9E3E6923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprSolution.PaymentService.Http", "services\PaymentService\src\DaprSolution.PaymentService.Http\DaprSolution.PaymentService.Http.csproj", "{4D17A0CF-CBC1-4097-9019-A11A1751B4C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +42,10 @@ Global
 		{494B8660-C929-775E-B832-FD5C1571571C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{494B8660-C929-775E-B832-FD5C1571571C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{494B8660-C929-775E-B832-FD5C1571571C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D17A0CF-CBC1-4097-9019-A11A1751B4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D17A0CF-CBC1-4097-9019-A11A1751B4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D17A0CF-CBC1-4097-9019-A11A1751B4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D17A0CF-CBC1-4097-9019-A11A1751B4C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +58,9 @@ Global
 		{ACFAAF8F-D72E-8841-8565-2716BA34C486} = {F6ED29FC-90D1-4441-B96C-7AB0ED08269D}
 		{494B8660-C929-775E-B832-FD5C1571571C} = {DECE9D25-79B8-4727-A782-E833691D2A8B}
 		{53052BA1-0731-4A3F-A946-BCECF1BD6C70} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8D50F29E-76A9-46F0-AD4C-A428CCBCB173} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{635C20A9-2D1F-41AC-9D57-958C9E3E6923} = {8D50F29E-76A9-46F0-AD4C-A428CCBCB173}
+		{4D17A0CF-CBC1-4097-9019-A11A1751B4C2} = {635C20A9-2D1F-41AC-9D57-958C9E3E6923}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA36AF0C-3C64-49AC-ADE9-6224904D4355}
